@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,900;1,400&family=Luxurious+Roman&display=swap');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body,html{
+  height: 100%;
+  color: #ffffff;
+  box-sizing: border-box;
+  background-color:rgb(248, 242, 242);
+}
+/*start home*/
+section h1 {
+  color: #ffffff;
+  font-size: 2.2em;
+  font-family: 'Courgette', cursive;
+}
+.enter{
+  margin: auto;
+  align-items: center;
+  height: 5.5em;
+  width: 30em;
+  background-color: rgba(153, 26, 147, 0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+  border-radius: 15px;
+}
+.enter p{
+  text-align: center;
+  color: #ffffff;
+  font-size: 3em;
+  font-weight: 900;
+  font-family: 'Lato', sans-serif;
+}
+.enter p span{
+  color: #0072BF;
+}
+#home{
+  width: 100%;
+  height: 100vh;
+  background: -webkit-linear-gradient(rgba(4, 1, 31, 0.686),transparent 1000%),
+  url(https://dl.dropboxusercontent.com/s/lgyooogv2vw25r5/head4.jpg?dl=0), #250332;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/* home*/
+/*start work*/
+#work{
+  background: -webkit-linear-gradient(rgba(118, 54, 201, 0.213),transparent 1000%),
+  url(https://dl.dropboxusercontent.com/s/heeso91g5cfsx0w/service.jpg?dl=0),white;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%; 
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#work p{
+  font-size: 1.7em;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+/* work*/
+.block {
+  height: 15rem;
+}
+/*start info*/
+#info{
+  height: 20rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .info-detalle h2{
+  text-align: center;
+  font-size: 2.5em;
+  font-family: 'Luxurious Roman', cursive;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  color: #0072BF;
+  
+}
+.info-detalle article{
+text-align: center;
+font-size: 1.2em;
+font-weight: 300;
+font-family: 'Luxurious Roman', cursive;
+  font-family: 'Lato', sans-serif;
+color: rgb(172, 172, 173);
+}
+.info-detalle p{
+  text-align: center;
+  font-size: 0.9em;
+  color: rgb(174, 174, 176);
+  font-weight: 300;
+  font-family: 'Luxurious Roman', cursive;
+  font-family: 'Lato', sans-serif
+}
+hr{
+    width:50%;
+    background-color: rgb(198, 198, 199);
+}
+/* info*/
+/*start finish*/
+#finish{
+  background: -webkit-linear-gradient(rgba(118, 54, 201, 0.166),transparent 1000%),
+  url(https://dl.dropboxusercontent.com/s/heeso91g5cfsx0w/service.jpg?dl=0),white;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%; 
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section .finish-detalle h2{
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 900;
+  font-family: 'Lato', sans-serif;
+  color: rgb(250, 250, 252);
+}
+.finish-detalle article{
+text-align: center;
+font-size: 0.9em;
+font-weight: 300;
+font-family: 'Luxurious Roman', cursive;
+font-family: 'Lato', sans-serif;
+color: rgb(250, 250, 252);
+}
+.finish-detalle p{
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: 300;
+font-family: 'Luxurious Roman', cursive;
+font-family: 'Lato', sans-serif;
+  color: rgb(250, 250, 252);
+  }
+/*finish*/
+/*start footer*/
+#contact{
+  height:120px;
+  background-color:rgb(20, 20, 20);
+}
+.contact-links{
+  padding-top:3%;
+  position:absolute;
+  text-align:center;
+}
+i{
+  font-size: 2.5em;
+}
+.contact-details{
+  color:rgb(140, 138, 138);
+  margin-left:200px;
+}
+.contact-details:hover{
+  color: rgb(117, 54, 201);
+  transition: color 0.2s ease-out;
+}
+/*footer*/
+/*Medias*/
+@media (max-width:540px) {
+  section h1{
+    padding: 4% 0 0 20%;
+  }
+  .enter{
+    width: 21em;
+    height: 10em;
+  }
+  #home{
+    background: -webkit-linear-gradient(rgba(4, 1, 31, 0.974),transparent 1000%);
+    background-size: contain;
+    background-position: center 0;
+    height: 600px;
+  }
+  #work{
+    height: 600px;
+    font-size: 0.8em;
+  }
+  #info{
+    height: 400px;
+    font-size: 0.8em;
+  }
+  #finish{
+    height: 600px;
+    font-size: 1em;
+  }
+  #contact{
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+  }
+  i{
+    font-size: 2em;
+  }
+  .contact-links{
+    display: flex;
+    height: 8rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contact-details{
+    margin-left: 0;
+  }
+}
