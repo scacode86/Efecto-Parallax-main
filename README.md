@@ -9,7 +9,7 @@ Parallax usando stellar.js
 * [Codepen](https://codepen.io/Scacode)
 
 ## Ver ejemplo en vivo
-[Demo of the proyect](https://scacode86.github.io/Efecto-Parallax-main/)
+[Demo odel Proyecto](https://scacode86.github.io/Efecto-Parallax-main/)
 
 ## Instalacion
 Este proyecto no necesita instalacion. Simplemente abre la carpeta o has doble click en el .html
